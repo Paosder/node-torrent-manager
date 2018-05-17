@@ -5,6 +5,13 @@
   "main": "lib/",
   "repository": "https://github.com/Paosder/node-torrent-manager.git",
   "author": "Paosder <kimnamwun@gmail.com>",
+  "scripts": {
+    "build": "babel ./src/ -d ./lib/",
+    "prepare": "npm run build",
+    "dev": "nodemon --watch src --watch test/dev.js --exec 'npm run test-dev'",
+    "test-dev": "npm run-script build && node ./test/dev.js",
+    "test": "npm run-script build && node ./test/"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -13,6 +20,7 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
     "nodemon": "^1.17.4"
   }
 }
