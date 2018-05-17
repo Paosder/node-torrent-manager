@@ -1,0 +1,18 @@
+{
+  "name": "node-torrent-manager",
+  "version": "0.1.0",
+  "description": "torrent downloader using Webtorrent & Websocket",
+  "main": "lib/",
+  "repository": "https://github.com/Paosder/node-torrent-manager.git",
+  "author": "Paosder <kimnamwun@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "nodemon": "^1.17.4"
+  }
+}
