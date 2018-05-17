@@ -1,4 +1,0 @@
-[submodule "webtorrent"]
-	path = webtorrent
-	url = https://github.com/Paosder/webtorrent.git
-	ignore = all

@@ -1,1 +1,1 @@
-import webtorrent from '../webtorrent';
+import webtorrent from 'webtorrent';
